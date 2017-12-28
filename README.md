@@ -3,11 +3,19 @@ In this programming assignment, I wrote an LC-3 program capable of evaluating po
 
 
 EVALUATE: This subroutine for each input value, calls the push, pop, add, subtract, multiply, divide and power after evaluating if the value read from the memory is an operator or operand and if it is an operator, which kind. If the stack underflows or if after evaluating the whole expression the stack has more than one value, print "Invalid Expression" to the screen and halt.
+
 PUSH: Pushes items onto stack
+
 POP: Pops items off stack
+
 ADD: Adds the two operands.
+
 SUBTRACT: Performs subtraction.
+
 MULTIPLY: Performs multiplication.
+
 DIVIDE: Performs division. In case the division results in a remainder, just return the integer quotient. The input values will always be positive integers.
+
 POWER: Performs power operation. You may assume that the register storing the result will not overflow. The input values will always be positive integers.
+
 PRINT_HEX: This subroutine prints the output of the input expression in its hexadecimal representation.
