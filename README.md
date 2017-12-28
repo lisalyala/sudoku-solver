@@ -30,3 +30,4 @@ PRINT_HEX: This subroutine prints the output of the input expression in its hexa
 # semiprime
 # codebreaker
 # game-of-life
+# sudoku-solver
